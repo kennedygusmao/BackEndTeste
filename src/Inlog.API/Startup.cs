@@ -33,33 +33,24 @@ namespace Inlog.API
                 .AddJsonFile($"appsettings.{hostEnvironment.EnvironmentName}.json", true, true)
                 .AddEnvironmentVariables();
 
-            //if (hostEnvironment.IsDevelopment())
-            //{
-            //    builder.AddUserSecrets<Startup>();
-            //}
-
             Configuration = builder.Build();
         }
 
 
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
-        {
-          
+        {          
             services.AddDbContext<InlogDbContext>(options =>
             {
                 options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection"));
-            });
-
-          
+            });          
 
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
             services.WebApiConfig();
 
             services.AddSwaggerConfig();
-
-              services.AddLoggingConfiguration(Configuration);
+            services.AddLoggingConfiguration(Configuration);
 
             services.ResolveDependencies();
 
@@ -86,25 +77,18 @@ namespace Inlog.API
             {
                 // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
                 app.UseHsts();
-            }
-
-         
+            }         
             app.UseKissLogMiddleware(options => {
                 ConfigureKissLog(options);
             });
 
             app.UseLoggingConfiguration();
 
-           app.UseMiddleware(typeof(ExceptionHandlingMiddleware));
-        
-
+            app.UseMiddleware(typeof(ExceptionHandlingMiddleware));
 
             app.UseMvcConfiguration();
 
             app.UseSwaggerConfig(provider);         
-
-       
-       
         }
 
         private void ConfigureKissLog(IOptionsBuilder options)
@@ -152,7 +136,5 @@ namespace Inlog.API
                 context.Database.Migrate();
             }
         }
-    }
-
-   
+    }   
 }

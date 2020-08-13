@@ -195,7 +195,7 @@ namespace InlogTest
             var veiculoCadastrado = _serviceMemory.ObterPorChassi(chassi.ToString()).Result;
             veiculoCadastrado.Cor = cor;
 
-            var result = _serviceMemory.Atualizar(chassi, veiculoCadastrado).Result;
+            var result = _serviceMemory.Atualizar(mapperMemory.Map<VeiculoDto>(veiculoCadastrado)).Result;
 
             var veiculoAlterado = _serviceMemory.ObterPorChassi(chassi.ToString()).Result;
 

@@ -38,6 +38,7 @@ namespace Inlog.Service.Service
             var query = (from a in result
                          select new VeiculoDetalheDto()
                          {
+                             Id = a.Id,
                              Chassi = a.Chassi,
                              Cor = a.Cor,
                              NumeroPassageiros = a.NumeroPassageiros,
@@ -100,7 +101,7 @@ namespace Inlog.Service.Service
             return true;
         }
 
-        public async Task<bool> Atualizar(string chassi, VeiculoDetalheDto veiculoDto)
+        public async Task<bool> Atualizar( VeiculoDto veiculoDto)
         {
             var veiculo = _mapper.Map<Veiculo>(veiculoDto);
 
@@ -118,12 +119,15 @@ namespace Inlog.Service.Service
                 return false;
             }
 
-            if (!_veiculoRepository.Buscar(f => f.Chassi == chassi).Result.Any())
+            var result = await _veiculoRepository.Buscar(f => f.Chassi == veiculoDto.Chassi);
+
+            if (!result.Any())
             {
                 Notificar("Não existe um veículo cadastrado com esse chassi.");
-               _logger.Info($"Não existe um veículo cadastrado com o chassi {chassi} cadastrado no sistemas.");
+               _logger.Info($"Não existe um veículo cadastrado com o chassi { veiculoDto.Chassi} cadastrado no sistemas.");
                 return false;
             }
+            veiculo.Id = result.FirstOrDefault().Id;
             veiculo.UpdateAt = DateTime.UtcNow;
             await _veiculoRepository.Atualizar(veiculo);
             return true;

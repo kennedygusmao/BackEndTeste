@@ -23,9 +23,7 @@ namespace Inlog.API.Extensions
         {
             this.next = next;
             _logger = logger;
-        }
-
-      
+        }      
         public async Task Invoke(HttpContext context /* other dependencies */)
         {
             try
@@ -57,9 +55,7 @@ namespace Inlog.API.Extensions
             sb.AppendLine("Method: " + context.Request.Method);
 
             return sb.ToString();
-        }
-
-      
+        }      
         public Task ResultResponseListValidation(int code, object objResult, Exception ex, HttpContext context)
         {
             _logger.LogError($"error {ex.Message}");
@@ -67,9 +63,7 @@ namespace Inlog.API.Extensions
             context.Response.ContentType = "application/json";
             context.Response.StatusCode = code;
             return context.Response.WriteAsync(result);
-        }
-
-      
+        }      
         public Task ResultResponse(Exception ex, HttpContext context, int code)
         {
 

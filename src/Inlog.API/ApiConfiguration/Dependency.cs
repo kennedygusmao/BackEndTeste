@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace Inlog.API.ApiConfiguration
+﻿namespace Inlog.API.ApiConfiguration
 {
     public class Dependency
     {

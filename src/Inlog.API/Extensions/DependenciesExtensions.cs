@@ -18,8 +18,7 @@ namespace Inlog.API.Extensions
                 if (nomeDependencia.StartsWith("postgres-"))
                 {
                     builder = builder.AddNpgSql(dependencia.ConnectionString, name: dependencia.Name);
-                }
-              
+                }              
             }
 
             return builder;

@@ -37,8 +37,7 @@ namespace Inlog.API.ApiConfiguration
                         .AllowAnyOrigin()
                         .AllowAnyMethod()
                         .AllowAnyHeader()
-                        .AllowCredentials());
-              
+                        .AllowCredentials());              
             });
 
             return services;

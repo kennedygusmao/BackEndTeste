@@ -19,15 +19,11 @@ namespace Inlog.API.ApiConfiguration
 
             ///Repository
             services.AddScoped<IVeiculoRepository, VeiculoRepository>();
-
             ///Service
             services.AddScoped<IVeiculoService, VeiculoService>();
 
-
             services.AddScoped<INotificador, Notificador>();         
             services.AddTransient<IConfigureOptions<SwaggerGenOptions>, ConfigureSwaggerOptions>();
-
-
 
             return services;
         }

@@ -43,8 +43,6 @@ namespace Inlog.API.V1.Controllers
             return CustomResponse(await _veiculoService.ObterPorChassi(chassi));
         }
 
-
-
         /// <summary>
         /// Cadastrar Veículo
         /// </summary>
@@ -70,11 +68,11 @@ namespace Inlog.API.V1.Controllers
         /// <summary>
         /// Atualizar o Veículo
         /// </summary>
-        /// <param name="id"></param>
+        /// <param name="chassi"></param>
         /// <param name="veiculoDto"></param>
         /// <returns></returns>
         [HttpPut]
-        public async Task<ActionResult<VeiculoDto>> Atualizar([FromForm] string chassi, [FromForm] VeiculoDetalheDto veiculoDto)
+        public async Task<ActionResult<VeiculoDto>> Atualizar([FromForm] VeiculoDto veiculoDto)
         {
 
             if (!ModelState.IsValid)
@@ -82,7 +80,7 @@ namespace Inlog.API.V1.Controllers
                 return CustomResponse(ModelState);
             }
 
-            await _veiculoService.Atualizar(chassi, veiculoDto);
+            await _veiculoService.Atualizar(veiculoDto);
 
             return CustomResponse(veiculoDto);
         }

@@ -11,7 +11,7 @@ namespace Inlog.Domain.Interfaces.Service
         Task<IEnumerable<VeiculoDetalheDto>> ObterTodos();
         Task<VeiculoDetalheDto> ObterPorChassi(string chassi);
         Task<bool> Adicionar(VeiculoDto veiculoDto);
-        Task<bool> Atualizar(string chassi, VeiculoDetalheDto veiculoDto);
+        Task<bool> Atualizar(VeiculoDto veiculoDto);
         Task<VeiculoDto> Remover(string chassi);
     }
 }
