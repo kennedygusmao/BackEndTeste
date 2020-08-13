@@ -1,0 +1,1155 @@
+{
+  "Inlog.Data.dll": {
+    "C:\\Edemison_Kennedy\\Desenvolvedor.io\\Inlog.Test.Backend.CSharp\\src\\Inlog.Data\\Repository\\Repository.cs": {
+      "Inlog.Data.Repository.Repository`1": {
+        "System.Void Inlog.Data.Repository.Repository`1::Dispose()": {
+          "Lines": {
+            "63": 0,
+            "64": 0,
+            "65": 0
+          },
+          "Branches": [
+            {
+              "Line": 64,
+              "Offset": 8,
+              "EndOffset": 10,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 64,
+              "Offset": 8,
+              "EndOffset": 13,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Inlog.Data.Repository.Repository`1::.ctor(Inlog.Data.Context.InlogDbContext)": {
+          "Lines": {
+            "18": 7,
+            "19": 7,
+            "20": 7,
+            "21": 7,
+            "22": 7
+          },
+          "Branches": []
+        }
+      },
+      "Inlog.Data.Repository.Repository`1/<Buscar>d__3": {
+        "System.Void Inlog.Data.Repository.Repository`1/<Buscar>d__3::MoveNext()": {
+          "Lines": {
+            "25": 11,
+            "26": 11,
+            "27": 11
+          },
+          "Branches": []
+        }
+      },
+      "Inlog.Data.Repository.Repository`1/<ObterPorId>d__4": {
+        "System.Void Inlog.Data.Repository.Repository`1/<ObterPorId>d__4::MoveNext()": {
+          "Lines": {
+            "30": 0,
+            "31": 0,
+            "32": 0
+          },
+          "Branches": []
+        }
+      },
+      "Inlog.Data.Repository.Repository`1/<ObterTodos>d__5": {
+        "System.Void Inlog.Data.Repository.Repository`1/<ObterTodos>d__5::MoveNext()": {
+          "Lines": {
+            "35": 2,
+            "36": 2,
+            "37": 2
+          },
+          "Branches": []
+        }
+      },
+      "Inlog.Data.Repository.Repository`1/<Adicionar>d__6": {
+        "System.Void Inlog.Data.Repository.Repository`1/<Adicionar>d__6::MoveNext()": {
+          "Lines": {
+            "40": 2,
+            "41": 2,
+            "42": 2,
+            "43": 2
+          },
+          "Branches": []
+        }
+      },
+      "Inlog.Data.Repository.Repository`1/<Atualizar>d__7": {
+        "System.Void Inlog.Data.Repository.Repository`1/<Atualizar>d__7::MoveNext()": {
+          "Lines": {
+            "46": 1,
+            "47": 1,
+            "48": 1,
+            "49": 1
+          },
+          "Branches": []
+        }
+      },
+      "Inlog.Data.Repository.Repository`1/<Remover>d__8": {
+        "System.Void Inlog.Data.Repository.Repository`1/<Remover>d__8::MoveNext()": {
+          "Lines": {
+            "52": 1,
+            "53": 1,
+            "54": 1,
+            "55": 1
+          },
+          "Branches": []
+        }
+      },
+      "Inlog.Data.Repository.Repository`1/<SaveChanges>d__9": {
+        "System.Void Inlog.Data.Repository.Repository`1/<SaveChanges>d__9::MoveNext()": {
+          "Lines": {
+            "58": 4,
+            "59": 4,
+            "60": 4
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Edemison_Kennedy\\Desenvolvedor.io\\Inlog.Test.Backend.CSharp\\src\\Inlog.Data\\Repository\\VeiculoRepository.cs": {
+      "Inlog.Data.Repository.VeiculoRepository": {
+        "System.Void Inlog.Data.Repository.VeiculoRepository::.ctor(Inlog.Data.Context.InlogDbContext)": {
+          "Lines": {
+            "10": 7,
+            "11": 7,
+            "12": 7
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Edemison_Kennedy\\Desenvolvedor.io\\Inlog.Test.Backend.CSharp\\src\\Inlog.Data\\Migrations\\20200811203852_MyFirstMigration.cs": {
+      "Inlog.Data.Migrations.MyFirstMigration": {
+        "System.Void Inlog.Data.Migrations.MyFirstMigration::Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "9": 0,
+            "10": 0,
+            "11": 0,
+            "12": 0,
+            "13": 0,
+            "14": 0,
+            "15": 0,
+            "16": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0
+          },
+          "Branches": []
+        },
+        "System.Void Inlog.Data.Migrations.MyFirstMigration::Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)": {
+          "Lines": {
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Edemison_Kennedy\\Desenvolvedor.io\\Inlog.Test.Backend.CSharp\\src\\Inlog.Data\\Migrations\\20200811203852_MyFirstMigration.Designer.cs": {
+      "Inlog.Data.Migrations.MyFirstMigration": {
+        "System.Void Inlog.Data.Migrations.MyFirstMigration::BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "17": 0,
+            "19": 0,
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "48": 0,
+            "49": 0,
+            "51": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Edemison_Kennedy\\Desenvolvedor.io\\Inlog.Test.Backend.CSharp\\src\\Inlog.Data\\Migrations\\InlogDbContextModelSnapshot.cs": {
+      "Inlog.Data.Migrations.InlogDbContextModelSnapshot": {
+        "System.Void Inlog.Data.Migrations.InlogDbContextModelSnapshot::BuildModel(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "15": 0,
+            "17": 0,
+            "18": 0,
+            "19": 0,
+            "20": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0,
+            "26": 0,
+            "27": 0,
+            "28": 0,
+            "29": 0,
+            "30": 0,
+            "31": 0,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "38": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "44": 0,
+            "45": 0,
+            "46": 0,
+            "47": 0,
+            "49": 0
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Edemison_Kennedy\\Desenvolvedor.io\\Inlog.Test.Backend.CSharp\\src\\Inlog.Data\\Mapper\\AutomapperConfig.cs": {
+      "Inlog.Data.Mapper.AutomapperConfig": {
+        "System.Void Inlog.Data.Mapper.AutomapperConfig::.ctor()": {
+          "Lines": {
+            "9": 7,
+            "10": 7,
+            "11": 7,
+            "12": 7,
+            "13": 7,
+            "14": 7,
+            "16": 7
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Edemison_Kennedy\\Desenvolvedor.io\\Inlog.Test.Backend.CSharp\\src\\Inlog.Data\\EntityConfig\\VeiculoConfiguration.cs": {
+      "Inlog.Data.EntityConfig.VeiculoConfiguration": {
+        "System.Void Inlog.Data.EntityConfig.VeiculoConfiguration::Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder`1<Inlog.Domain.Entities.Veiculo>)": {
+          "Lines": {
+            "10": 1,
+            "11": 1,
+            "13": 1,
+            "14": 1,
+            "15": 1,
+            "17": 1,
+            "18": 1,
+            "21": 1,
+            "22": 1,
+            "25": 1,
+            "26": 1,
+            "28": 1,
+            "29": 1,
+            "33": 1,
+            "34": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Edemison_Kennedy\\Desenvolvedor.io\\Inlog.Test.Backend.CSharp\\src\\Inlog.Data\\Context\\InlogDbContext.cs": {
+      "Inlog.Data.Context.InlogDbContext": {
+        "Microsoft.EntityFrameworkCore.DbSet`1<Inlog.Domain.Entities.Veiculo> Inlog.Data.Context.InlogDbContext::get_Veiculos()": {
+          "Lines": {
+            "14": 22
+          },
+          "Branches": []
+        },
+        "System.Void Inlog.Data.Context.InlogDbContext::OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)": {
+          "Lines": {
+            "17": 1,
+            "18": 7,
+            "19": 2,
+            "20": 9,
+            "21": 2,
+            "23": 1,
+            "25": 0,
+            "27": 1,
+            "28": 1
+          },
+          "Branches": [
+            {
+              "Line": 18,
+              "Offset": 87,
+              "EndOffset": 57,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 18,
+              "Offset": 87,
+              "EndOffset": 89,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 25,
+              "Offset": 202,
+              "EndOffset": 181,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 25,
+              "Offset": 202,
+              "EndOffset": 204,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            }
+          ]
+        },
+        "System.Threading.Tasks.Task`1<System.Int32> Inlog.Data.Context.InlogDbContext::SaveChangesAsync(System.Threading.CancellationToken)": {
+          "Lines": {
+            "31": 4,
+            "32": 0,
+            "33": 0,
+            "34": 0,
+            "35": 0,
+            "36": 0,
+            "37": 0,
+            "39": 0,
+            "40": 0,
+            "41": 0,
+            "42": 0,
+            "43": 0,
+            "45": 4,
+            "46": 4
+          },
+          "Branches": [
+            {
+              "Line": 32,
+              "Offset": 147,
+              "EndOffset": 57,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 76,
+              "EndOffset": 78,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 34,
+              "Offset": 76,
+              "EndOffset": 107,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 118,
+              "EndOffset": 120,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 39,
+              "Offset": 118,
+              "EndOffset": 140,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 0
+            },
+            {
+              "Line": 32,
+              "Offset": 147,
+              "EndOffset": 149,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 4
+            }
+          ]
+        },
+        "System.Void Inlog.Data.Context.InlogDbContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions`1<Inlog.Data.Context.InlogDbContext>)": {
+          "Lines": {
+            "12": 21
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Inlog.Domain.dll": {
+    "C:\\Edemison_Kennedy\\Desenvolvedor.io\\Inlog.Test.Backend.CSharp\\src\\Inlog.Domain\\Entities\\EntityBase.cs": {
+      "Inlog.Domain.Entities.EntityBase": {
+        "System.Guid Inlog.Domain.Entities.EntityBase::get_Id()": {
+          "Lines": {
+            "16": 312
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.DateTime> Inlog.Domain.Entities.EntityBase::get__createAt()": {
+          "Lines": {
+            "18": 125
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.DateTime> Inlog.Domain.Entities.EntityBase::get_UpdateAt()": {
+          "Lines": {
+            "19": 96
+          },
+          "Branches": []
+        },
+        "System.Nullable`1<System.DateTime> Inlog.Domain.Entities.EntityBase::get_CreateAt()": {
+          "Lines": {
+            "23": 288
+          },
+          "Branches": []
+        },
+        "System.Void Inlog.Domain.Entities.EntityBase::set_CreateAt(System.Nullable`1<System.DateTime>)": {
+          "Lines": {
+            "24": 87
+          },
+          "Branches": [
+            {
+              "Line": 24,
+              "Offset": 9,
+              "EndOffset": 11,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 4
+            },
+            {
+              "Line": 24,
+              "Offset": 9,
+              "EndOffset": 14,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 25
+            }
+          ]
+        },
+        "System.Void Inlog.Domain.Entities.EntityBase::.ctor()": {
+          "Lines": {
+            "10": 45,
+            "11": 45,
+            "12": 45,
+            "13": 45
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Edemison_Kennedy\\Desenvolvedor.io\\Inlog.Test.Backend.CSharp\\src\\Inlog.Domain\\Entities\\Veiculo.cs": {
+      "Inlog.Domain.Entities.Veiculo": {
+        "System.String Inlog.Domain.Entities.Veiculo::get_Chassi()": {
+          "Lines": {
+            "9": 170
+          },
+          "Branches": []
+        },
+        "Inlog.Domain.Enum.TipoVeiculo Inlog.Domain.Entities.Veiculo::get_TipoVeiculo()": {
+          "Lines": {
+            "10": 136
+          },
+          "Branches": []
+        },
+        "System.Byte Inlog.Domain.Entities.Veiculo::get_NumeroPassageiros()": {
+          "Lines": {
+            "11": 127
+          },
+          "Branches": []
+        },
+        "System.String Inlog.Domain.Entities.Veiculo::get_Cor()": {
+          "Lines": {
+            "12": 144
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Edemison_Kennedy\\Desenvolvedor.io\\Inlog.Test.Backend.CSharp\\src\\Inlog.Domain\\Dtos\\VeiculoDetalheDto.cs": {
+      "Inlog.Domain.Dtos.VeiculoDetalheDto": {
+        "System.Guid Inlog.Domain.Dtos.VeiculoDetalheDto::get_Id()": {
+          "Lines": {
+            "8": 10
+          },
+          "Branches": []
+        },
+        "System.String Inlog.Domain.Dtos.VeiculoDetalheDto::get_Chassi()": {
+          "Lines": {
+            "9": 22
+          },
+          "Branches": []
+        },
+        "Inlog.Domain.Enum.TipoVeiculo Inlog.Domain.Dtos.VeiculoDetalheDto::get_TipoVeiculo()": {
+          "Lines": {
+            "10": 25
+          },
+          "Branches": []
+        },
+        "System.String Inlog.Domain.Dtos.VeiculoDetalheDto::get_Descricao()": {
+          "Lines": {
+            "11": 0
+          },
+          "Branches": []
+        },
+        "System.Byte Inlog.Domain.Dtos.VeiculoDetalheDto::get_NumeroPassageiros()": {
+          "Lines": {
+            "12": 18
+          },
+          "Branches": []
+        },
+        "System.String Inlog.Domain.Dtos.VeiculoDetalheDto::get_Cor()": {
+          "Lines": {
+            "13": 18
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Edemison_Kennedy\\Desenvolvedor.io\\Inlog.Test.Backend.CSharp\\src\\Inlog.Domain\\Dtos\\VeiculoDto.cs": {
+      "Inlog.Domain.Dtos.VeiculoDto": {
+        "System.String Inlog.Domain.Dtos.VeiculoDto::get_Chassi()": {
+          "Lines": {
+            "14": 5
+          },
+          "Branches": []
+        },
+        "Inlog.Domain.Enum.TipoVeiculo Inlog.Domain.Dtos.VeiculoDto::get_TipoVeiculo()": {
+          "Lines": {
+            "19": 5
+          },
+          "Branches": []
+        },
+        "System.String Inlog.Domain.Dtos.VeiculoDto::get_Cor()": {
+          "Lines": {
+            "23": 5
+          },
+          "Branches": []
+        }
+      }
+    }
+  },
+  "Inlog.Service.dll": {
+    "C:\\Edemison_Kennedy\\Desenvolvedor.io\\Inlog.Test.Backend.CSharp\\src\\Inlog.Service\\Validations\\VeiculoValidation.cs": {
+      "Inlog.Service.Validators.VeiculoValidation": {
+        "System.Void Inlog.Service.Validators.VeiculoValidation::<.ctor>b__0_3()": {
+          "Lines": {
+            "25": 6,
+            "26": 6,
+            "27": 6,
+            "28": 6
+          },
+          "Branches": []
+        },
+        "System.Void Inlog.Service.Validators.VeiculoValidation::<.ctor>b__0_5()": {
+          "Lines": {
+            "32": 6,
+            "33": 6,
+            "34": 6,
+            "35": 6
+          },
+          "Branches": []
+        },
+        "System.Void Inlog.Service.Validators.VeiculoValidation::.ctor()": {
+          "Lines": {
+            "10": 3,
+            "11": 3,
+            "12": 3,
+            "13": 3,
+            "14": 3,
+            "15": 3,
+            "17": 3,
+            "18": 3,
+            "19": 3,
+            "20": 3,
+            "24": 6,
+            "31": 6,
+            "37": 3,
+            "39": 3,
+            "44": 3
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Edemison_Kennedy\\Desenvolvedor.io\\Inlog.Test.Backend.CSharp\\src\\Inlog.Service\\Validations\\Passageiro\\PassageiroValidacao.cs": {
+      "Inlog.Service.Validations.Passageiro.PassageiroValidacao": {
+        "System.Boolean Inlog.Service.Validations.Passageiro.PassageiroValidacao::ValidarQuantidadePassageiroVeiculo(Inlog.Domain.Enum.TipoVeiculo,System.Byte)": {
+          "Lines": {
+            "12": 3,
+            "13": 3,
+            "14": 1,
+            "16": 2,
+            "17": 2,
+            "21": 0,
+            "22": 3
+          },
+          "Branches": [
+            {
+              "Line": 13,
+              "Offset": 3,
+              "EndOffset": 5,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 13,
+              "Offset": 3,
+              "EndOffset": 11,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            },
+            {
+              "Line": 13,
+              "Offset": 14,
+              "EndOffset": 16,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 1
+            },
+            {
+              "Line": 13,
+              "Offset": 14,
+              "EndOffset": 20,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            },
+            {
+              "Line": 16,
+              "Offset": 22,
+              "EndOffset": 24,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 2
+            },
+            {
+              "Line": 16,
+              "Offset": 22,
+              "EndOffset": 31,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 0
+            },
+            {
+              "Line": 16,
+              "Offset": 34,
+              "EndOffset": 36,
+              "Path": 0,
+              "Ordinal": 6,
+              "Hits": 2
+            },
+            {
+              "Line": 16,
+              "Offset": 34,
+              "EndOffset": 40,
+              "Path": 1,
+              "Ordinal": 7,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Edemison_Kennedy\\Desenvolvedor.io\\Inlog.Test.Backend.CSharp\\src\\Inlog.Service\\Service\\BaseService.cs": {
+      "Inlog.Service.Service.BaseService": {
+        "System.Void Inlog.Service.Service.BaseService::Notificar(FluentValidation.Results.ValidationResult)": {
+          "Lines": {
+            "20": 0,
+            "21": 0,
+            "22": 0,
+            "23": 0,
+            "24": 0,
+            "25": 0
+          },
+          "Branches": [
+            {
+              "Line": 21,
+              "Offset": 44,
+              "EndOffset": 16,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            },
+            {
+              "Line": 21,
+              "Offset": 44,
+              "EndOffset": 46,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Inlog.Service.Service.BaseService::Notificar(System.String)": {
+          "Lines": {
+            "28": 1,
+            "29": 1,
+            "30": 1
+          },
+          "Branches": []
+        },
+        "System.Boolean Inlog.Service.Service.BaseService::ExecutarValidacao(TV,TE)": {
+          "Lines": {
+            "33": 3,
+            "34": 3,
+            "36": 3,
+            "37": 3,
+            "38": 3,
+            "41": 0,
+            "43": 0,
+            "44": 3
+          },
+          "Branches": [
+            {
+              "Line": 36,
+              "Offset": 22,
+              "EndOffset": 24,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 3
+            },
+            {
+              "Line": 36,
+              "Offset": 22,
+              "EndOffset": 29,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Inlog.Service.Service.BaseService::.ctor(Inlog.Service.Interface.INotificador)": {
+          "Lines": {
+            "14": 7,
+            "15": 7,
+            "16": 7,
+            "17": 7
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Edemison_Kennedy\\Desenvolvedor.io\\Inlog.Test.Backend.CSharp\\src\\Inlog.Service\\Service\\VeiculoService.cs": {
+      "Inlog.Service.Service.VeiculoService": {
+        "System.Void Inlog.Service.Service.VeiculoService::Dispose()": {
+          "Lines": {
+            "156": 0,
+            "157": 0,
+            "159": 0
+          },
+          "Branches": [
+            {
+              "Line": 157,
+              "Offset": 8,
+              "EndOffset": 10,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 157,
+              "Offset": 8,
+              "EndOffset": 13,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        },
+        "System.Void Inlog.Service.Service.VeiculoService::.ctor(Inlog.Service.Interface.INotificador,AutoMapper.IMapper,KissLog.ILogger,Inlog.Domain.Interfaces.Repository.IVeiculoRepository)": {
+          "Lines": {
+            "25": 7,
+            "26": 7,
+            "27": 7,
+            "28": 7,
+            "29": 7,
+            "30": 7,
+            "31": 7
+          },
+          "Branches": []
+        }
+      },
+      "Inlog.Service.Service.VeiculoService/<>c": {
+        "Inlog.Domain.Dtos.VeiculoDetalheDto Inlog.Service.Service.VeiculoService/<>c::<ObterTodos>b__5_0(Inlog.Domain.Dtos.VeiculoDetalheDto)": {
+          "Lines": {
+            "39": 5,
+            "40": 5,
+            "41": 5,
+            "42": 5,
+            "43": 5,
+            "44": 5,
+            "45": 5,
+            "46": 5,
+            "47": 5
+          },
+          "Branches": [
+            {
+              "Line": 39,
+              "Offset": 65,
+              "EndOffset": 67,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 39,
+              "Offset": 65,
+              "EndOffset": 74,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 2
+            }
+          ]
+        }
+      },
+      "Inlog.Service.Service.VeiculoService/<ObterTodos>d__5": {
+        "System.Void Inlog.Service.Service.VeiculoService/<ObterTodos>d__5::MoveNext()": {
+          "Lines": {
+            "34": 2,
+            "36": 2,
+            "38": 2,
+            "49": 2,
+            "50": 2
+          },
+          "Branches": []
+        }
+      },
+      "Inlog.Service.Service.VeiculoService/<ObterPorChassi>d__6": {
+        "System.Void Inlog.Service.Service.VeiculoService/<ObterPorChassi>d__6::MoveNext()": {
+          "Lines": {
+            "54": 7,
+            "56": 7,
+            "58": 7,
+            "59": 6,
+            "60": 6,
+            "62": 6,
+            "65": 1,
+            "67": 1,
+            "68": 1,
+            "69": 1,
+            "72": 7
+          },
+          "Branches": [
+            {
+              "Line": 58,
+              "Offset": 193,
+              "EndOffset": 195,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 6
+            },
+            {
+              "Line": 60,
+              "Offset": 214,
+              "EndOffset": 216,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 4
+            },
+            {
+              "Line": 60,
+              "Offset": 214,
+              "EndOffset": 223,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            },
+            {
+              "Line": 58,
+              "Offset": 193,
+              "EndOffset": 243,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "Inlog.Service.Service.VeiculoService/<Adicionar>d__7": {
+        "System.Void Inlog.Service.Service.VeiculoService/<Adicionar>d__7::MoveNext()": {
+          "Lines": {
+            "75": 2,
+            "76": 2,
+            "78": 2,
+            "79": 1,
+            "80": 1,
+            "81": 1,
+            "83": 1,
+            "84": 1,
+            "85": 1,
+            "87": 2,
+            "88": 0,
+            "89": 0,
+            "92": 2,
+            "93": 0,
+            "94": 0,
+            "95": 0,
+            "96": 0,
+            "98": 2,
+            "99": 2,
+            "100": 2,
+            "101": 2
+          },
+          "Branches": [
+            {
+              "Line": 78,
+              "Offset": 83,
+              "EndOffset": 85,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 78,
+              "Offset": 83,
+              "EndOffset": 107,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 87,
+              "Offset": 160,
+              "EndOffset": 162,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 87,
+              "Offset": 160,
+              "EndOffset": 170,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 2
+            },
+            {
+              "Line": 92,
+              "Offset": 321,
+              "EndOffset": 323,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 92,
+              "Offset": 321,
+              "EndOffset": 408,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 2
+            }
+          ]
+        }
+      },
+      "Inlog.Service.Service.VeiculoService/<Atualizar>d__8": {
+        "System.Void Inlog.Service.Service.VeiculoService/<Atualizar>d__8::MoveNext()": {
+          "Lines": {
+            "104": 1,
+            "105": 1,
+            "107": 1,
+            "108": 0,
+            "109": 0,
+            "110": 0,
+            "112": 1,
+            "113": 1,
+            "114": 1,
+            "116": 1,
+            "117": 0,
+            "118": 0,
+            "121": 1,
+            "122": 0,
+            "123": 0,
+            "124": 0,
+            "125": 0,
+            "127": 1,
+            "128": 1,
+            "129": 1,
+            "131": 1
+          },
+          "Branches": [
+            {
+              "Line": 107,
+              "Offset": 90,
+              "EndOffset": 92,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 0
+            },
+            {
+              "Line": 107,
+              "Offset": 90,
+              "EndOffset": 109,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 1
+            },
+            {
+              "Line": 116,
+              "Offset": 152,
+              "EndOffset": 154,
+              "Path": 0,
+              "Ordinal": 2,
+              "Hits": 0
+            },
+            {
+              "Line": 116,
+              "Offset": 152,
+              "EndOffset": 162,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 1
+            },
+            {
+              "Line": 121,
+              "Offset": 296,
+              "EndOffset": 298,
+              "Path": 0,
+              "Ordinal": 4,
+              "Hits": 0
+            },
+            {
+              "Line": 121,
+              "Offset": 296,
+              "EndOffset": 378,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 1
+            }
+          ]
+        }
+      },
+      "Inlog.Service.Service.VeiculoService/<Remover>d__9": {
+        "System.Void Inlog.Service.Service.VeiculoService/<Remover>d__9::MoveNext()": {
+          "Lines": {
+            "134": 1,
+            "136": 1,
+            "138": 1,
+            "139": 1,
+            "141": 1,
+            "142": 1,
+            "144": 1,
+            "145": 1,
+            "150": 0,
+            "152": 0,
+            "153": 1
+          },
+          "Branches": [
+            {
+              "Line": 138,
+              "Offset": 325,
+              "EndOffset": 330,
+              "Path": 0,
+              "Ordinal": 0,
+              "Hits": 1
+            },
+            {
+              "Line": 138,
+              "Offset": 325,
+              "EndOffset": 557,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 0
+            }
+          ]
+        }
+      }
+    },
+    "C:\\Edemison_Kennedy\\Desenvolvedor.io\\Inlog.Test.Backend.CSharp\\src\\Inlog.Service\\Notificacoes\\Notificacao.cs": {
+      "Inlog.Service.Notificacoes.Notificacao": {
+        "System.String Inlog.Service.Notificacoes.Notificacao::get_Mensagem()": {
+          "Lines": {
+            "10": 2
+          },
+          "Branches": []
+        },
+        "System.Void Inlog.Service.Notificacoes.Notificacao::.ctor(System.String)": {
+          "Lines": {
+            "5": 1,
+            "6": 1,
+            "7": 1,
+            "8": 1
+          },
+          "Branches": []
+        }
+      }
+    },
+    "C:\\Edemison_Kennedy\\Desenvolvedor.io\\Inlog.Test.Backend.CSharp\\src\\Inlog.Service\\Notificacoes\\Notificador.cs": {
+      "Inlog.Service.Notificacoes.Notificador": {
+        "System.Void Inlog.Service.Notificacoes.Notificador::Handle(Inlog.Service.Notificacoes.Notificacao)": {
+          "Lines": {
+            "19": 1,
+            "20": 1,
+            "21": 1
+          },
+          "Branches": []
+        },
+        "System.Collections.Generic.List`1<Inlog.Service.Notificacoes.Notificacao> Inlog.Service.Notificacoes.Notificador::ObterNotificacoes()": {
+          "Lines": {
+            "24": 3,
+            "25": 3,
+            "26": 3
+          },
+          "Branches": []
+        },
+        "System.Boolean Inlog.Service.Notificacoes.Notificador::TemNotificacao()": {
+          "Lines": {
+            "29": 4,
+            "30": 4,
+            "31": 4
+          },
+          "Branches": []
+        },
+        "System.Void Inlog.Service.Notificacoes.Notificador::.ctor()": {
+          "Lines": {
+            "13": 7,
+            "14": 7,
+            "15": 7,
+            "16": 7
+          },
+          "Branches": []
+        }
+      }
+    }
+  }
+}
